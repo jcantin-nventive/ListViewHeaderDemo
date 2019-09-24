@@ -11,11 +11,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListViewHeaderDemo.iOS", "L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListViewHeaderDemo.UWP", "ListViewHeaderDemo\ListViewHeaderDemo.UWP\ListViewHeaderDemo.UWP.csproj", "{E6F41DF3-6A9F-4965-A4AA-4C3FE80EB9BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListViewHeaderDemo.Wasm", "ListViewHeaderDemo\ListViewHeaderDemo.Wasm\ListViewHeaderDemo.Wasm.csproj", "{C358906F-D53D-42FB-B5D5-DC8D7814551B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListViewHeaderDemo.Wasm", "ListViewHeaderDemo\ListViewHeaderDemo.Wasm\ListViewHeaderDemo.Wasm.csproj", "{C358906F-D53D-42FB-B5D5-DC8D7814551B}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		ListViewHeaderDemo\ListViewHeaderDemo.Shared\ListViewHeaderDemo.Shared.projitems*{39cdee69-4c5f-4d21-9345-0ce8b7c9bd16}*SharedItemsImports = 4
 		ListViewHeaderDemo\ListViewHeaderDemo.Shared\ListViewHeaderDemo.Shared.projitems*{6279c845-92f8-4333-ab99-3d213163593c}*SharedItemsImports = 13
+		ListViewHeaderDemo\ListViewHeaderDemo.Shared\ListViewHeaderDemo.Shared.projitems*{e6f41df3-6a9f-4965-a4aa-4c3fe80eb9bf}*SharedItemsImports = 4
+		ListViewHeaderDemo\ListViewHeaderDemo.Shared\ListViewHeaderDemo.Shared.projitems*{fcc64070-d5a3-4102-a539-150f1c7e997b}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
